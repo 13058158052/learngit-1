@@ -206,5 +206,12 @@ Git分支十分强大，在团队开发中应该充分应用。
 
 合并分支时，加上`--no-ff`参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而`fast forward`合并就看不出来曾经做过合并。
 
+#### Bug分支
 
+Git还提供了一个`stash`功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作：
+
+```
+$ git stash
+Saved working directory and index state WIP on dev: f52c633 add merge
+```
 
