@@ -158,3 +158,11 @@ index e69de29..4b9a8a2 100644
 ```
 
 `git diff`顾名思义就是查看difference  
+
+### 生成SSH key 
+
+```
+ssh-keygen -t rsa -C “邮箱地址”
+```
+
+输入命令，一直回车 ,找到.ssh目录有两个文件,Github上点击“setting”，找到添加SSH key的菜单，然后新增SSH key；把文件id_rsa.pub 里面的内容全部复制到 key编辑框中，保存完毕.
